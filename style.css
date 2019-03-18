@@ -1,0 +1,79 @@
+body {
+    background: url("media/bg.jpg");
+    background-size: cover;
+}
+img {
+  }
+.main {
+    width: 461px;
+    height: 471px;
+    background: #ffffff;
+    margin: 60px auto;
+    border-radius: 3px;
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.main h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+.main p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #7a7b7f;
+}
+
+.main a:link {
+    font-family: Arial, sans-serif;
+    font-size:13px;
+    color: #e12a6c;
+    text-decoration: none;
+}
+.main a:visited {
+    font-size:16px; color:DarkRed
+}
+#first, #last {
+    width: 195px;
+    height: 40px;
+    background: #f0f0f0;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 15px;
+}
+#last {
+    margin-left: 7px;
+}
+#email, #pass {
+    width: 400px;
+    height: 40px;
+    background: #f0f0f0;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+#button {
+    width: 400px;
+    height: 50px;
+    background: #ea355a;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+form input, button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+#button:hover {
+    box-shadow: 10px 7px 45px 10px rgba(107, 70, 107, 0.77);
+}
+#first:hover, #last:hover, #email:hover, #pass:hover {
+    box-shadow: 5px 3px 20px 6px rgba(58, 34, 58, 0.44);
+}
